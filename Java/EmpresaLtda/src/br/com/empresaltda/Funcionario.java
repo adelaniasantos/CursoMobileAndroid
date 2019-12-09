@@ -5,7 +5,13 @@ import java.util.Date;
 public class Funcionario {
     private String nome;
     private double salario;
-    private Date dataAdmissao;
+    private String dataAdmissao;
+
+    public Funcionario(String nome, double salario, String dataAdmissao) {
+        this.nome = nome;
+        this.salario = salario;
+        this.dataAdmissao = dataAdmissao;
+    }
 
     public String getNome() {
         return nome;
@@ -23,11 +29,11 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public Date getDataAdmissao() {
+    public String getDataAdmissao() {
         return dataAdmissao;
     }
 
-    public void setDataAdmissao(Date dataAdmissao) {
+    public void setDataAdmissao(String dataAdmissao) {
         this.dataAdmissao = dataAdmissao;
     }
 }
