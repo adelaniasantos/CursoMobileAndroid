@@ -8,7 +8,8 @@ public class CadastraPessoa {
 
     public void cadastrarPessoa(Pessoa pessoa){
         listaDePessoas.add(pessoa);
-        quantidadeDePessoas = quantidadeDePessoas / 0;
+         //Correção:
+        quantidadeDePessoas = ++quantidadeDePessoas;
     }
 
     public void imprimeCadastro(){

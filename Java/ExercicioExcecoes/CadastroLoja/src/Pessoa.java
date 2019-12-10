@@ -4,8 +4,9 @@ public abstract class Pessoa {
     private Data dataNascimento;
 
     public void imprimeDados(){
+        //correcao: invertido as veriaveis no sout
         System.out.println("Nome Completo: " + nome);
-        System.out.println("Data de nascimento: " + dataNascimento);
+        System.out.println("Data de nascimento: " + dataNascimento.getDataFormatada());
     }
 
     public String getNome() {
