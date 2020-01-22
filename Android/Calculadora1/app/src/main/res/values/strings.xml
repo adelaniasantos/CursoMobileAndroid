@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="digite_um_numero">Digite um Numero</string>
+    <string name="digite_outro_numero">Digite Outro Numero</string>
+    <string name="calcular">Calcular</string>
+</resources>
